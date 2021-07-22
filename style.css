@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    position: relative;
+    height: 50vh;
+    background: #b92b27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.wrapper h1{
+    color: ghostwhite;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+
+}
+.wrapper p{
+    color: ghostwhite;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+.custom-shape-divider-bottom-1626989945 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1626989945 svg {
+    position: relative;
+    display: block;
+    width: calc(101% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1626989945 .shape-fill {
+    fill: #FFFFFF;
+}
